@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  DynamicKeyCommand
+//  AutoLayoutBasedVirtualizedList
 //
-//  Created by 刘闽晟 on 2020/5/21.
+//  Created by 刘闽晟 on 2020/5/22.
 //  Copyright © 2020 刘闽晟. All rights reserved.
 //
 
@@ -10,6 +10,8 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -30,4 +32,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+
 }
+
