@@ -24,6 +24,7 @@
 		9A9DF22E247804D200DFB34E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A9DF231247804D200DFB34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A9DF233247804D200DFB34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9DF23924780BA100DFB34E /* AutoLayoutBasedVirtualizedList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoLayoutBasedVirtualizedList.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		9A9DF224247804D000DFB34E /* AutoLayoutBasedVirtualizedList */ = {
 			isa = PBXGroup;
 			children = (
+				9A9DF23924780BA100DFB34E /* AutoLayoutBasedVirtualizedList.entitlements */,
 				9A9DF225247804D000DFB34E /* AppDelegate.swift */,
 				9A9DF227247804D000DFB34E /* SceneDelegate.swift */,
 				9A9DF229247804D000DFB34E /* ContentView.swift */,
@@ -284,9 +286,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AutoLayoutBasedVirtualizedList/AutoLayoutBasedVirtualizedList.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AutoLayoutBasedVirtualizedList/Preview Content\"";
-				DEVELOPMENT_TEAM = 672Y25KCMH;
+				DEVELOPMENT_TEAM = 4L3527X2E5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AutoLayoutBasedVirtualizedList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -295,6 +298,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ms.liu.AutoLayoutBasedVirtualizedList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,9 +308,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AutoLayoutBasedVirtualizedList/AutoLayoutBasedVirtualizedList.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AutoLayoutBasedVirtualizedList/Preview Content\"";
-				DEVELOPMENT_TEAM = 672Y25KCMH;
+				DEVELOPMENT_TEAM = 4L3527X2E5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AutoLayoutBasedVirtualizedList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ms.liu.AutoLayoutBasedVirtualizedList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
